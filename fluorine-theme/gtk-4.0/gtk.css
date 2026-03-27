@@ -1,0 +1,325 @@
+* {
+	transition:100ms;
+}
+.rubberband, rubberband {
+	border:1px solid #2060a0;
+	background-color:rgba(0, 32, 64, 0.5);
+}
+:selected, selection {
+	background-color:#002040;
+	color:white;
+}
+button {
+	background-color:#202020;
+	border:1px solid #303030;
+	padding:4px;
+	transition:100ms;
+}
+button:hover, tab:hover {
+	border:1px solid #303030;
+	background-color:#505050;
+	transition:100ms;
+}
+entry {
+	background-color:black;
+	padding:4px;
+	border:1px solid #303030;
+}
+button:active, button:checked {
+	background-color:#202020;
+	border:1px solid black;
+	transition:100ms;
+}
+window {
+	background-color:#101010;
+}
+notebook.frame {
+	background-color:black;
+	border:1px solid #202020;
+	padding:2px;
+}
+notebook {
+	background-color:black;
+}
+tab {
+	background-color:#202020;
+	border:1px solid #303030;
+	padding:4px;
+	margin:2px;
+}
+frame {
+	border:1px solid #606060;
+	background-color: #080808;
+}
+headerbar button {
+	margin:2px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+headerbar button.titlebutton {
+	border:none;
+	padding:4px;
+	background-color:transparent;
+}
+frame.border-inset {
+	border-top:1px solid #202020;
+	border-left:1px solid #202020;
+	border-bottom:1px solid #404040;
+	border-right:1px solid #404040;
+}
+frame.border-outset {
+	border-bottom:1px solid #202020;
+	border-right:1px solid #202020;
+	border-top:1px solid #404040;
+	border-left:1px solid #404040;
+}
+frame.border-inset {
+	border-top:1px solid #202020;
+	border-left:1px solid #202020;
+	border-bottom:1px solid #404040;
+	border-right:1px solid #404040;
+}
+frame.border-inset {
+	border-top:1px solid #202020;
+	border-left:1px solid #202020;
+	border-bottom:1px solid #404040;
+	border-right:1px solid #404040;
+}
+selection {
+	background-color:#002040;
+}
+menubar {
+	border-bottom:1px solid #303030;
+	background-color:#000000;
+}
+menu {
+	border:1px solid #303030;
+}
+dialog {
+	background-color:#101010;
+}
+scrolledwindow {
+	border:1px solid #404040;
+	background-color:#101010;
+}
+window#L3afpad scrolledwindow {
+	border:none;
+}
+popover {
+	border:1px solid #303030;
+	background-color: #101010;
+}
+arrow {
+	padding:8px;
+	background-image:url("arrow-down.svg");
+	background-repeat: no-repeat;
+  	background-position: right;
+ 	background-size: contain; 
+}
+check, radio {
+	-gtk-icon-source:none;
+	margin:4px;
+	background-image:url("checkbox.svg");
+	background-repeat: no-repeat;
+  	background-position: center;
+ 	background-size: contain; 
+}
+spinner:dir(ltr) {
+	opacity:0;
+}
+spinner:dir(ltr):checked {
+	opacity:1;
+}
+check:checked {
+	background-image:url("checkbox-checked.svg");
+}
+check:indeterminate {
+	background-image:url("checkbox-indeterminate.svg");
+}
+switch {
+	background-color:black;
+	border:1px solid #202020;
+}
+progressbar {
+	border:1px solid #202020;
+	padding:2px;
+	background-color:black;
+}
+progress {
+	background-color:#2060a0;
+}
+scale {
+	background-color:black;
+	border:1px solid #202020;
+}
+levelbar block.filled {
+	background-color:#2060a0;
+	padding:2px;
+}
+levelbar block {
+	border:1px solid #303030;
+	background-color:black;
+}
+scale contents {
+	padding:1px;
+	background-color:black;
+}
+scale slider {
+	padding:8px;
+	margin:1px;
+	border:1px solid #303030;
+	background-color:#202020;
+}
+switch slider {
+	background-color:#202020;
+	border:1px solid #303030;
+	margin:2px;
+	padding:0px;
+}
+scale highlight {
+	background-color:#2060a0;
+	margin:4px;
+}
+scrollbar button {
+	padding:8px;
+}
+scrollbar {
+	border:1px solid #303030;
+	background-color:black;
+}
+scrollbar slider {
+	background-color:#202020;
+	padding:8px;
+	border:1px solid #303030;
+	transition:100ms;
+}
+slider:hover {
+	border:1px solid #303030;
+	background-color:#505050;
+	transition:100ms;
+}
+scrollbar button {
+	background-repeat: no-repeat;
+  	background-position: right;
+ 	background-size: contain;
+}
+button:disabled {
+	background-color:#101010;
+	color:#c0c0c0;
+}
+button:checked:disabled {
+	background-color:black;
+	color:#c0c0c0;
+}
+menubar menuitem {
+	padding:4px;
+	padding-right:6px;
+	padding-left:6px;
+}
+menuitem {
+	padding:6px;
+}
+menuitem:hover {
+	background-color:#303030;
+}
+toolbar button {
+	border:1px solid transparent;
+	background-color:transparent;
+}
+toolbar button:disabled {
+	border:1px solid transparent;
+	background-color:#202020;
+}
+toolbar button:hover {
+	border:1px solid #202020;
+	background-color:#101010;
+}
+toolbar button:active {
+	border:1px solid #303030;
+	background-color:#202020;
+}
+menuitem:disabled {
+	color:#c0c0c0;
+}
+calendar {
+	border:1px solid #303030;
+	background-color:#101010;
+}
+row {
+	padding:4px;
+}
+row:selected {
+	background-color:#002040;
+}
+tab button {
+	border:none;
+	margin-left:4px;
+	margin-right:4px;
+}
+separator {
+	border-right:1px solid #303030;
+}
+separator.horizontal {
+	border-bottom:1px solid #303030;
+}
+menu separator {
+	border-bottom:1px solid #303030;
+}
+scrollbar.vertical button.up {
+	background-image:url("arrow-up.svg"); 
+}
+scrollbar.vertical button.down {
+	background-image:url("arrow-down.svg");
+}
+scrollbar.horizontal button.up {
+	background-image:url("arrow-left.svg"); 
+}
+scrollbar.horizontal button.down {
+	background-image:url("arrow-right.svg");
+}
+window.thunar menubar {
+	border-bottom:none;
+}
+window.thunar toolbar {
+	background-color:black;
+	border-bottom:1px solid #303030
+}
+window.thunar toolbar entry {
+	background-color:#101010;
+	margin:2px;
+}
+window.thunar scrolledwindow.shortcuts-pane {
+	border:none;
+	background-color:black;
+}
+window.thunar toolbar button:disabled {
+	background-color:black;
+}
+window.thunar notebook scrolledwindow {
+	border:none;
+}
+window.thunar statusbar frame {
+	border:none;
+	background-color:black;
+}
+window.thunar paned {
+	background-color:black;
+}
+window.thunar paned scrolledwindow {
+	border-bottom:1px solid #303030;
+	background-color:#101010;
+}
+popover menuitem {
+	padding:4px;
+}
+entry image {
+	margin-left:4px;
+	margin-right:4px;
+}
+rubberband {
+	border:1px solid red;
+}
+@define-color theme_selected_bg_color #002040;
+@define-color theme_selected_fg_color white;
+@define-color theme_selected_base_color  #002040;
+@define-color theme_selected_text_color white;

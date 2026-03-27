@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="checkbox-checked.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="66.291261"
+     inkscape:cy="78.842406"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#ffffff;stroke-width:0.264583"
+       d="M 2.1166666 2.1166666 L 2.1166666 31.749999 L 31.749999 31.749999 L 31.749999 2.1166666 L 2.1166666 2.1166666 z M 4.2333332 4.2333332 L 29.633333 4.2333332 L 29.633333 29.633333 L 4.2333332 29.633333 L 4.2333332 4.2333332 z " />
+    <rect
+       style="fill:#ffffff;stroke-width:0.314644"
+       id="rect5"
+       width="17.960512"
+       height="4.2333331"
+       x="-37.417732"
+       y="34.924999"
+       transform="matrix(-0.70710678,0.70710678,0,1,0,0)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.314644"
+       id="rect6"
+       width="8.9802561"
+       height="4.2333331"
+       x="10.476965"
+       y="7.4083295"
+       transform="matrix(0.70710678,0.70710678,0,1,0,0)" />
+  </g>
+</svg>
