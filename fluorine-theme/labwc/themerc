@@ -1,0 +1,41 @@
+!! Fluorine window theme
+
+!! General window styling
+window.button.width: 32
+border.width: 1
+*.text.justify: center
+
+window.frameColor: #000000
+window.*.client.color: #000000
+window.button.hover.bg.color: #ffffff23
+
+window.*.title.bg: solid
+window.*.title.bg.color: #000000
+window.*.border.color: #606060
+
+window.*.shadow.size: 30
+window.*.shadow.color: #00000080
+
+!! Active
+window.active.label.text.color: #ffffff
+
+!! Inactive
+window.inactive.label.text.color: #c0c0c0
+
+!! Menu
+menu.border.width: 2
+
+menu.title.bg.color: #303030
+menu.items.bg.color: #000000
+menu.items.text.color: #ffffff
+
+menu.items.active.text.color: #ffffff
+menu.items.active.bg.color: #303030
+
+menu.separator.width: 2
+
+!! Window snapping
+snapping.overlay.edge.bg.color: #2060a050
+
+!! On screen display
+osd.window-switcher.preview.border.color:#ffffff

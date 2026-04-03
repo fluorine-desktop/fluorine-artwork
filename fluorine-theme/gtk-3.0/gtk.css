@@ -6,6 +6,10 @@
 	background-color:#002040;
 	color:white;
 }
+tooltip {
+	background-color:black;
+	border:2px solid #303030;
+}
 
 button {
 	background-color:#202020;
@@ -50,9 +54,9 @@ tab {
 notebook tab {
 	background-color:#303030;
 }
-tab:active {
+tab:checked {
 	border-color:transparent;
-	background-color:#606060;
+	background-color:#404040;
 }
 frame {
 	padding:2px;
@@ -77,6 +81,13 @@ menubar {
 }
 menu {
 	border:2px solid #303030;
+	background-color:#161616;
+}
+menu icon {
+	padding-left:2px;
+}
+menu separator {
+	border-bottom:2px solid #303030;
 }
 messagedialog, dialog {
 	background-color:black;
@@ -86,7 +97,7 @@ messagedialog button, dialog button {
 }
 scrolledwindow {
 	border:2px solid #606060;
-	background-color:black;
+	background-color:#080808;
 }
 popover {
 	border:1px solid #303030;
@@ -98,14 +109,30 @@ arrow {
 	background-repeat: no-repeat;
   	background-position: right;
  	background-size: contain; 
+	min-width:8px;
+	min-height:8px;
+}
+arrow:hover {
+	background-color:#161616;
+}
+arrow.horizontal:checked {
+	background-image:url("arrow-up.svg");
+}
+arrow.vertical:checked {
+	background-image:url("arrow-left.svg");
+}
+arrow.vertical, menu arrow {
+	background-image:url("arrow-right.svg");
 }
 check, radio {
 	-gtk-icon-source:none;
-	margin:4px;
-	background-image:url("checkbox.svg");
+	border:2px solid white;
 	background-repeat: no-repeat;
   	background-position: center;
- 	background-size: contain; 
+ 	background-size: contain;
+	margin:4px;
+	min-width:16px;
+	min-height:16px;
 }
 spinner:dir(ltr) {
 	opacity:0;
@@ -114,10 +141,28 @@ spinner:dir(ltr):checked {
 	opacity:1;
 }
 check:checked {
-	background-image:url("checkbox-checked.svg");
+	background-image:url("check.svg");
 }
-check:indeterminate {
-	background-image:url("checkbox-indeterminate.svg");
+radio:checked {
+	background-image:url("radio.svg");
+}
+check:indeterminate, radio:indeterminate {
+	background-image:url("indeterminate.svg");
+	background-size: contain;
+}
+check:checked, radio:checked {
+	background-color:#2060a0;
+	border-color: transparent;
+}
+check:disabled:checked, radio:disabled:checked {
+	background-color:#323232;
+}
+check:disabled, radio:disabled {
+	border-color:#a0a0a0;
+}
+check:hover, radio:hover {
+	background-color:#303030;
+	border-color:#c0c0c0;
 }
 switch {
 	background-color:black;
@@ -132,8 +177,8 @@ progress {
 	background-color:#2060a0;
 }
 scale {
-	background-color:black;
-	border:2px solid #606060;
+	background-color:transparent;
+	border:2px solid transparent;
 	padding:2px;
 }
 levelbar block.filled {
@@ -146,7 +191,14 @@ levelbar block {
 }
 scale contents {
 	padding:1px;
-	background-color:black;
+}
+scale value {
+	margin:4px;
+}
+scale mark {
+	padding-left:1px;
+	padding-top:5px;
+	background-color:#a0a0a0;
 }
 scale slider {
 	padding:7px;
@@ -278,16 +330,16 @@ separator {
 menu separator {
 	border-bottom:1px solid #303030;
 }
-scrollbar.vertical button.up {
+scrollbar.vertical button.up, arrow.up {
 	background-image:url("arrow-up.svg"); 
 }
-scrollbar.vertical button.down {
+scrollbar.vertical button.down, arrow.down {
 	background-image:url("arrow-down.svg");
 }
-scrollbar.horizontal button.up {
+scrollbar.horizontal button.up, arrow.left {
 	background-image:url("arrow-left.svg"); 
 }
-scrollbar.horizontal button.down {
+scrollbar.horizontal button.down, arrow.right {
 	background-image:url("arrow-right.svg");
 }
 window.thunar menubar {
@@ -326,7 +378,7 @@ window.thunar notebook stack {
 	margin:2px;
 }
 window.thunar notebook scrolledwindow {
-	background-color:black;
+	background-color:#080808;
 }
 popover menuitem {
 	padding:4px;
@@ -353,3 +405,57 @@ image.sidebar-icon {
 @define-color theme_selected_fg_color white;
 @define-color theme_selected_base_color  #002040;
 @define-color theme_selected_text_color white;
+
+window#XfcePanelWindow widget#clock-8 box, window#XfcePanelWindow widget#clock-8 button {
+	background-color:transparent;
+}
+window#XfcePanelWindow button#applicationmenu-button {
+	min-width:32px;
+	background-color:black;
+	min-height:32px;
+	margin-top: -3px;
+	background-size:32px;
+	background-image:url("fluorine.svg");
+}
+window#XfcePanelWindow button#applicationmenu-button:hover {
+	border-color:transparent;
+	margin-top: -3px;
+	background-color:#161616;
+}
+window#XfcePanelWindow button#applicationmenu-button:checked {
+	border-color:transparent;
+	margin-top: -3px;
+	background-color:#303030;
+}
+window#XfcePanelWindow button#applicationmenu-button image {
+	opacity:0;
+	padding-right:6px;
+}
+window#XfcePanelWindow widget.tasklist button {
+	margin-left:4px;
+	background-color:transparent;
+	border-bottom: 2px solid #303030;
+}
+window#XfcePanelWindow widget.tasklist button:hover {
+	margin-left:4px;
+	background-color:#303030;
+	border:2px solid transparent;
+	border-bottom: 2px solid #606060;
+}
+window#XfcePanelWindow widget.tasklist button:checked {
+	margin-left:4px;
+	background-color:#161616;
+	border:2px solid transparent;
+	border-bottom: 2px solid #2060a0;
+}
+window#XfcePanelWindow button#launcher-arrow {
+	background-color:transparent;
+}
+window#XfcePanelWindow button#launcher-arrow:hover {
+	background-color:#303030;
+	border:none;
+}
+window#XfcePanelWindow button#launcher-arrow:active {
+	background-color:#606060;
+	border:none;
+}
